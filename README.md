@@ -1,4 +1,6 @@
-## Nonblocking continious ds18b20 handler, one wire over uart with dma, library included autosearch after initialization
+## Nonblocking continious ds18b20 handler, one wire over uart with dma,
+
+library included auto collision search after initialization
 
 ```c
 #include "dallas_temperature.h"
