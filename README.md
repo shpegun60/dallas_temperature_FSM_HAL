@@ -1,4 +1,4 @@
-## Non blocking continious proceed ds18b20, one wire over uart with dma handling
+## Non blocking continious ds18b20 handler, one wire over uart with dma
 
 ```c
 #include "dallas_temperature.h"
