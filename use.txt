@@ -1,0 +1,18 @@
+UartOneWire_HandleTypeDef ow;
+DallasTemperatureData dt;
+
+uint8_t resolution = TEMP_12_BIT;
+
+int main () {
+
+	OW_Init(&ow, huart);
+	DT_SetOneWire(&dt, &ow);
+	DT_init(&dt, resolution);
+	
+	while(1) {
+		uint32_t millis = HAL_GetTick();
+		DT_ContiniousProceed(&dt, currentSystemTime);	
+	}
+}
+
+//for get temp an id devices go to  DallasTemperatureData declaration
