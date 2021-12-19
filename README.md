@@ -1,10 +1,9 @@
+```c
 #include "dallas_temperature.h"
-<br>
 #include "UartOneWire.h"
-<br>
-<br>
+
+extern UART_HandleTypeDef huart;
 UartOneWire_HandleTypeDef ow;
-<br>
 DallasTemperatureData dt;
 
 uint8_t resolution = TEMP_12_BIT;
@@ -20,5 +19,5 @@ int main () {
 		DT_ContiniousProceed(&dt, millis);	
 	}
 }
-
-//for get temp and id devices go to  DallasTemperatureData declaration
+```
+for get temp and id devices go to  "DallasTemperatureData" declaration
