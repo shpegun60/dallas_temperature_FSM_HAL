@@ -1,6 +1,6 @@
 ## Nonblocking continious ds18b20 handler, one wire over uart with dma
 
-library include autosearch for devices on one bus by collisions after initialization
+library include autosearch for devices on one bus by collisions after initialization and checking crc
 
 ```c
 #include "dallas_temperature.h"
