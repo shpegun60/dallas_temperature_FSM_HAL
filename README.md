@@ -10,7 +10,7 @@ uint8_t resolution = TEMP_12_BIT;
 
 int main () {
 
-	OW_Init(&ow, huart);
+	OW_Init(&ow, &huart);
 	DT_SetOneWire(&dt, &ow);
 	DT_init(&dt, resolution);
 	
