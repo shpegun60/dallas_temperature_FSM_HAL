@@ -1,4 +1,4 @@
-## Nonblocking continious ds18b20 handler, one wire over uart with dma,
+## Nonblocking continious ds18b20 handler, one wire over uart with dma
 
 library included autosearch for devices on one bus by collisions after initialization
 
