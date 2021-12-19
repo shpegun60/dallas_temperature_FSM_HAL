@@ -15,4 +15,4 @@ int main () {
 	}
 }
 
-//for get temp an id devices go to  DallasTemperatureData declaration
+//for get temp and id devices go to  DallasTemperatureData declaration
