@@ -1,3 +1,6 @@
+#include "dallas_temperature.h"
+<br>
+#include "UartOneWire.h"
 <br>
 UartOneWire_HandleTypeDef ow;
 <br>
